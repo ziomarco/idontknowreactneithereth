@@ -1,0 +1,20 @@
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  & > * {
+    padding: 5px;
+    margin: 5px;
+  }
+}
+
+.error {
+  padding: 25px;
+  background-color: white;
+  color: brown;
+  border: 1px solid brown;
+  border-radius: 5px;
+}
